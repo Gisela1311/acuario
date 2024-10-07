@@ -8,3 +8,6 @@ class Cuenta:
 
   def retirar(self, cantidad):
     self.saldo = self.saldo - cantidad
+
+  def __str__(self):
+    return (num, saldo)
